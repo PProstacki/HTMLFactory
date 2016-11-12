@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Random;
 
 public class InfoWebsite extends Website{
+
     InfoWebsite(){
         HTMLTitle = "Informacje:";
         setHTMLTitle();
