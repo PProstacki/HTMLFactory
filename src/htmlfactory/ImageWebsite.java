@@ -19,7 +19,6 @@ public class ImageWebsite extends Website{
         int index = sb.indexOf("<body>");
         sb.insert(index + 6, getImages());
     }
-    //<img src= \"" width=\"600px\" height=\"450px\">"
 
     private StringBuilder getImages(){
         StringBuilder images = new StringBuilder();

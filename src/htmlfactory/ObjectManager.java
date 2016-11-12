@@ -10,7 +10,7 @@ public class ObjectManager {
     public void doAction(WebsiteType type){
         Website website = websiteFactory.createWebsite(type);
                 
-                
+        
     }
     
 }

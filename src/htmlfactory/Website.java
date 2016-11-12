@@ -12,7 +12,7 @@ public class Website {
         sb.append("<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"utf-8\">\n<title>\n</title>\n</head>\n<body>\n</body>\n</html>");
     }
     
-    void writeToFile(){     //dodac entery do pliku
+    void writeToFile(){
         try {
             PrintWriter pw = new PrintWriter("Strona_Internetowa.html");
             pw.write(sb.toString());
